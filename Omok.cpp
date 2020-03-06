@@ -1,0 +1,2 @@
+#include "Omok.h"
+
