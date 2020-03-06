@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include <windows.h>
+#include <vector>
+#include <string>
+#include <algorithm>
 
 
 //  방향키
@@ -33,6 +36,14 @@ struct location
     int y;
 };
 
+class GAME
+{
+    private:
+        vector<vector<int>> board(MAX_X, vector<int>(MAX_Y));
+
+    public:
+        void initGame();
+        void startGame();
+}
 
 #endif // !OMOK_H
-
